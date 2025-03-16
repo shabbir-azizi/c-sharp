@@ -65,3 +65,60 @@ public readonly record struct Person(string Name, int Age);
 
 
 
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_STUDENTS 100
+
+// Structure to store student details
+typedef struct {
+    int id;
+    char name[50];
+    float marks;
+} Student;
+
+Student students[MAX_STUDENTS];
+int studentCount = 0;
+
+// Function to add a student
+void addStudent() {
+    if (studentCount >= MAX_STUDENTS) {
+        printf("Student limit reached!\n");
+        return;
+    }
+
+    printf("Enter Student ID: ");
+    scanf("%d", &students[studentCount].id);
+    printf("Enter Student Name: ");
+    scanf(" %[^\n]", students[studentCount].name);
+    printf("Enter Student Marks: ");
+    scanf("%f", &students[studentCount].marks);
+
+    studentCount++;
+    printf("Student added successfully!\n");
+}
+
+// Function to display all students
+void displayStudents() {
+    if (studentCount == 0) {
+        printf("No students to display.\n");
+        return;
+    }
+
+    printf("\nStudent Records:\n");
+    printf("ID\tName\t\tMarks\n");
+    printf("---------------------------------\n");
+
+    for (int i = 0; i < studentCount; i++) {
+        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+    }
