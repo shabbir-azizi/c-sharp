@@ -246,3 +246,26 @@ int main() {
                 printf("Invalid choice! Please try again.\n");
         }
     }
+    using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+public class DigitalClock : Form
+{
+    private Label timeLabel;
+    private Timer timer;
+
+    public DigitalClock()
+    {
+        this.Text = "Digital Clock";
+        this.Size = new Size(300, 150);
+        this.FormBorderStyle = FormBorderStyle.FixedDialog;
+        this.MaximizeBox = false;
+        
+        timeLabel = new Label();
+        timeLabel.Font = new Font("Arial", 24, FontStyle.Bold);
+        timeLabel.Dock = DockStyle.Fill;
+        timeLabel.TextAlign = ContentAlignment.MiddleCenter;
+        
+        this.Controls.Add(timeLabel);
+        
