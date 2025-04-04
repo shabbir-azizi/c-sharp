@@ -269,3 +269,26 @@ public class DigitalClock : Form
         
         this.Controls.Add(timeLabel);
         
+
+
+        timer = new Timer();
+        timer.Interval = 1000; // Update every second
+        timer.Tick += new EventHandler(UpdateClock);
+        timer.Start();
+        
+        UpdateClock(null, null);
+    }
+
+    private void UpdateClock(object sender, EventArgs e)
+    {
+        timeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
+    }
+
+    [STAThread]
+    public static void Main()
+    {
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+        Application.Run(new DigitalClock());
+    }
+}
