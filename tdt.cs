@@ -19,8 +19,10 @@ namespace Hello
             integer - int shabbir ;
             floating point number - float that 
             character - char a = 'A';
-            boolean -
+            boolean -  bool is great = true;
+            // string - string inp = "shabbir";
               */
+            string inp = console .readline  ();
             Console.WriteLine( "hellow world ");
             Console.Write( "hellow shabbir ");
             Console.WriteLine( "i like programing ");
@@ -33,3 +35,18 @@ namespace Hello
 }
 
 
+
+//           bool is great = true;
+// string - string inp = "shabbir";
+string inp = console .readline  ();
+
+
+
+typedef struct {
+    int id;
+    char name[50];
+    float marks;
+} Student;
+
+Student students[MAX_STUDENTS];
+int studentCount = 0;
