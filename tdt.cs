@@ -12,22 +12,40 @@ namespace Hello
 
         static void Main (string []args)
         {    
-            // Thise is importent for debugging. do note remove
+            // single line comment example - Thise is importent for debugging. do note remove
 
-            int shabbir = 19;//integer variable 
-            /* data type in c#:
-            integer - int shabbir ;
-            floating point number - float that 
-            character - char a = 'A';
-            boolean -  bool is great = true;
-            // string - string inp = "shabbir";
-              */
+            // multi line comment example 
+            // thise is a multi-line comment 
+            // spanning multiple lines
+
+
+            // int shabbir = 19;//integer variable 
+            
             string inp = console .readline  ();
+            console.WriteLine(inp);
             Console.WriteLine( "hellow world ");
             Console.Write( "hellow shabbir ");
             Console.WriteLine( "i like programing ");
             Console.WriteLine( "i like programing and code" + harry);
          
+
+
+            /* data type in c#:
+            integer - int shabbir ; --> 4 bytes
+            long - long harry; --> 8 bytes
+            floating point number - float that; --> 4 bytes
+            double - double  harry; --> 8 bytes
+
+            character - char a = 'A';--> 2 bytes
+            boolean -  bool is great = true;--> 1 bit
+            // string - string inp = "shabbir";--> 2 bytes per character
+              */
+
+
+            int a = 34;
+            float b = 34.4;
+                
+            }
 
             console.readline();
         }
@@ -36,17 +54,3 @@ namespace Hello
 
 
 
-//           bool is great = true;
-// string - string inp = "shabbir";
-string inp = console .readline  ();
-
-
-
-typedef struct {
-    int id;
-    char name[50];
-    float marks;
-} Student;
-
-Student students[MAX_STUDENTS];
-int studentCount = 0;
