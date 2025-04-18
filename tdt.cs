@@ -21,12 +21,12 @@ namespace Hello
 
             // int shabbir = 19;//integer variable 
             
-            string inp = console .readline  ();
-            console.WriteLine(inp);
-            Console.WriteLine( "hellow world ");
-            Console.Write( "hellow shabbir ");
-            Console.WriteLine( "i like programing ");
-            Console.WriteLine( "i like programing and code" + harry);
+            // string inp = console .readline  ();
+            // console.WriteLine(inp);
+            // Console.WriteLine( "hellow world ");
+            // Console.Write( "hellow shabbir ");
+            // Console.WriteLine( "i like programing ");
+            // Console.WriteLine( "i like programing and code" + harry);
          
 
 
@@ -42,13 +42,36 @@ namespace Hello
               */
 
 
-            int a = 34;
-            float b = 34.4;
-                
-            }
+              // data types examples
+            // int a = 34;
+            // float b = 34.4f;
+            // double  c = 34.4d;
+            // bool is great = true ;
+            // char d = 'r';
+            // string e = "thise is a string "
+            // console .WriteLine(a);
+            // console .WriteLine(b);
+            // console .WriteLine(c);
+            // console .WriteLine(is great);
+            // console .WriteLine(d);
+            // console .WriteLine(e);
+           
 
+            // type casting 
+            // there are to type of type casting
+            // 1. implicit casting 
+            // char to int to long to float to double
+            // 2. explicit casting 
+            // int x = (int)3.5;
+            int x = 3;
+            double y = x;
+            int z = 'y';
+            console.WriteLine(x);
+            console.WriteLine(y);
+            console.WriteLine(z);
             console.readline();
-        }
+             
+             }
     }
 }
 
