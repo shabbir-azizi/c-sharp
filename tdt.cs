@@ -63,14 +63,30 @@ namespace Hello
             // char to int to long to float to double
             // 2. explicit casting 
             // int x = (int)3.5;
+            // double x1 = (double) 3.5;
+            // console.WriteLine(x1);
             int x = 3;
-            double y = x;
+            // double y = x;
             int z = 'y';
+            // float varr = convert.taint32(3.55);
+            // string sx ="34 is amazing ";
+            // float ax1 = 34.4;
+            // convert .todouble
+            // convert .to string
+            // string sx = "random string";
+
             console.WriteLine(x);
             console.WriteLine(y);
             console.WriteLine(z);
+            console.WriteLine("enter your name");
+            string name = console .readline();
+            console.WriteLine("hey hello "+ name);
+            
+            console.WriteLine("how many books do you want?");
+            string can = console .readline();
+            console.WriteLine(" you will get 4 more books" + 
+                         (convert.toint32can (can)+ 4));
             console.readline();
-             
              }
     }
 }
