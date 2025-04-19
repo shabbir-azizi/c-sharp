@@ -65,9 +65,9 @@ namespace Hello
             // int x = (int)3.5;
             // double x1 = (double) 3.5;
             // console.WriteLine(x1);
-            int x = 3;
+            // int x = 3;
             // double y = x;
-            int z = 'y';
+            // int z = 'y';
             // float varr = convert.taint32(3.55);
             // string sx ="34 is amazing ";
             // float ax1 = 34.4;
@@ -75,9 +75,10 @@ namespace Hello
             // convert .to string
             // string sx = "random string";
 
-            console.WriteLine(x);
-            console.WriteLine(y);
-            console.WriteLine(z);
+            // console.WriteLine(x);
+            // console.WriteLine(y);
+            // console.WriteLine(z);
+
             console.WriteLine("enter your name");
             string name = console .readline();
             console.WriteLine("hey hello "+ name);
