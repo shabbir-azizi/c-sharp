@@ -79,14 +79,27 @@ namespace Hello
             // console.WriteLine(y);
             // console.WriteLine(z);
 
-            console.WriteLine("enter your name");
-            string name = console .readline();
-            console.WriteLine("hey hello "+ name);
+            // console.WriteLine("enter your name");
+            // string name = console .readline();
+            // console.WriteLine("hey hello "+ name);
             
-            console.WriteLine("how many books do you want?");
-            string can = console .readline();
-            console.WriteLine(" you will get 4 more books" + 
-                         (convert.toint32can (can)+ 4));
+            // console.WriteLine("how many books do you want?");
+            // string can = console .readline();
+            // console.WriteLine(" you will get 4 more books" + 
+            //              (convert.toint32can (can)+ 4));
+            // operators in c#
+            // 1. arithmetic operators
+            // 2. assignment operators
+            // 3. logical operators 
+            // 4. comparison operators
+
+            int a = 4
+            int b = 2
+            consolw.WriteLine("the volue of a + b is:" +(a + b ));
+            consolw.WriteLine("the volue of a - b is:" +(a - b ));
+            consolw.WriteLine("the volue of a * b is:" +(a * b ));
+            consolw.WriteLine("the volue of a / b is:" +(a / b ));
+
             console.readline();
              }
     }
