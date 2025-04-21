@@ -107,18 +107,18 @@ namespace Hello
             // 3. logical operators 
             // 4. comparison operators
 
-            int a = 4
-            int b = 2
-            consolw.WriteLine("the volue of a + b is:" +(a + b ));
-            consolw.WriteLine("the volue of a - b is:" +(a - b ));
-            consolw.WriteLine("the volue of a * b is:" +(a * b ));
-            consolw.WriteLine("the volue of a / b is:" +(a / b ));
+            // int a = 4
+            // int b = 2
+            // consolw.WriteLine("the volue of a + b is:" +(a + b ));
+            // consolw.WriteLine("the volue of a - b is:" +(a - b ));
+            // consolw.WriteLine("the volue of a * b is:" +(a * b ));
+            // consolw.WriteLine("the volue of a / b is:" +(a / b ));
 
 
             // assignment operators
             // int a = 4 ;
             // int b = a;
-    s        // b += 4;
+            // b += 4;
             // b -= 4;
             // b *= 4;
             // b /= 4;
