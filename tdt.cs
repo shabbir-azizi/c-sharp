@@ -114,6 +114,29 @@ namespace Hello
             consolw.WriteLine("the volue of a * b is:" +(a * b ));
             consolw.WriteLine("the volue of a / b is:" +(a / b ));
 
+
+            // assignment operators
+            // int a = 4 ;
+            // int b = a;
+    s        // b += 4;
+            // b -= 4;
+            // b *= 4;
+            // b /= 4;
+            // console.WriteLine (b);
+
+            // // logical operators 
+            // console.WriteLine(true && false);
+            // console.WriteLine(true && true);
+            // console.WriteLine(false && false);
+
+            // console.WriteLine(true || false);
+            // console.WriteLine(true || true);
+            // console.WriteLine(false || false);
+            console.WriteLine(!false);
+            console.WriteLine(!true);
+
+
+
             console.readline();
              }
     }
