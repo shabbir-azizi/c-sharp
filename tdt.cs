@@ -146,9 +146,9 @@ namespace Hello
 
             // int a = math.min(34,345);
             // double a = math.sqrt(39);
-            // double a = math.abs(39);
-            int a = math.abs(-39);
-            console. WriteLine(a);
+            // // double a = math.abs(39);
+            // int a = math.abs(-39);
+            // console. WriteLine(a);
 
             console.readline();
              }
