@@ -132,9 +132,16 @@ namespace Hello
             // console.WriteLine(true || false);
             // console.WriteLine(true || true);
             // console.WriteLine(false || false);
-            console.WriteLine(!false);
-            console.WriteLine(!true);
+            // console.WriteLine(!false);
+            // console.WriteLine(!true);
 
+            // comparison operators
+            console.WriteLine(324>556);
+            console.WriteLine(324<=556);
+            console.WriteLine(324>=556);
+            console.WriteLine(324!=556);
+            console.WriteLine(55==55);
+            console.WriteLine(324_>556);
 
 
             console.readline();
