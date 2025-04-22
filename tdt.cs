@@ -135,14 +135,20 @@ namespace Hello
             // console.WriteLine(!false);
             // console.WriteLine(!true);
 
-            // comparison operators
-            console.WriteLine(324>556);
-            console.WriteLine(324<=556);
-            console.WriteLine(324>=556);
-            console.WriteLine(324!=556);
-            console.WriteLine(55==55);
-            console.WriteLine(324_>556);
+            // // comparison operators
+            // console.WriteLine(324>556);
+            // console.WriteLine(324<=556);
+            // console.WriteLine(324>=556);
+            // console.WriteLine(324!=556);
+            // console.WriteLine(55==55);
+            // console.WriteLine(324_>556);
 
+
+            // int a = math.min(34,345);
+            // double a = math.sqrt(39);
+            // double a = math.abs(39);
+            int a = math.abs(-39);
+            console. WriteLine(a);
 
             console.readline();
              }
