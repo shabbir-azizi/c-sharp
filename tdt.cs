@@ -150,6 +150,17 @@ namespace Hello
             // int a = math.abs(-39);
             // console. WriteLine(a);
 
+            string hello = "hello world thise is shabbir";
+            console.WriteLine(hello.lenght);
+            console.WriteLine(hello.toupper());
+            console.WriteLine(hello.tolower);
+            console.WriteLine(hello + "you are nice");
+            console.WriteLine(string.concat(hello + "you are nice"));
+
+            string name = console.readline();
+            string candis = console.readline();
+            console.WriteLine($"your name is{name}.you will get {candis} candis")
+            
             console.readline();
              }
     }
