@@ -143,7 +143,6 @@ namespace Hello
             // console.WriteLine(55==55);
             // console.WriteLine(324_>556);
 
-
             // int a = math.min(34,345);
             // double a = math.sqrt(39);
             // // double a = math.abs(39);
@@ -156,10 +155,16 @@ namespace Hello
             // console.WriteLine(hello.tolower);
             // console.WriteLine(hello + "you are nice");
             // console.WriteLine(string.concat(hello + "you are nice"));
+            // string name = console.readline();
+            // string candis = console.readline();
+            // console.WriteLine($"your name is{name}.you will get {candis} candis")
 
-            string name = console.readline();
-            string candis = console.readline();
-            console.WriteLine($"your name is{name}.you will get {candis} candis")
+
+
+            string hello = "hello world thise is shabbir";
+            
+            console.WriteLine(hello[0]);
+
 
             console.readline();
              }
