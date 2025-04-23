@@ -164,6 +164,22 @@ namespace Hello
             string hello = "hello world thise is shabbir";
             
             console.WriteLine(hello[0]);
+            console.WriteLine(hello[1]);
+            console.WriteLine(hello[2]);
+            console.WriteLine(hello[3]);
+            console.WriteLine(hello[7]);
+
+            console.WriteLine(helle.indexof("hello"))
+            console.WriteLine(helle.indexof("thise"))
+            console.WriteLine(helle.indexof("shabbir"))
+
+            console.WriteLine(hello.substring(1));
+            console.WriteLine(hello.substring(5));
+
+            console.WriteLine(hello);
+
+
+
 
 
             console.readline();
