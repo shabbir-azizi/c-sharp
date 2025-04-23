@@ -180,35 +180,36 @@ namespace Hello
 
 
             // int age = 56;
-            int age = 16;
-            // if(age > 18)
-            if(age < 2)
-            {
-              // console.WriteLine("you can drive");
-              console.WriteLine("you are just born");
+            // console.WriteLine("enter your name");
+            // string agestr  = console.readline();
+            // int age = 16;
+            // // if(age > 18)
+            // if(age < 2)
+            // {
+            //   // console.WriteLine("you can drive");
+            //   console.WriteLine("you are just born");
+            
+            // }
+            // else if (age <10)
 
-            }
-            else if (age <10)
+            // {
+            //   // console.WriteLine("you can not drive");
+            //   console.WriteLine("finish your school");
+            // }
 
-            {
-              // console.WriteLine("you can not drive");
-              console.WriteLine("finish your school");
-            }
+            // else if age (age < 18)
+            // {
+            //   console.WriteLine("you are below 18");
+            // }
+            // else if(age < 75) 
+            // {
+            //   console .WriteLine("you can drive");
+            // }
+            // else
+            // {
+            //   console.WriteLine("you can not drive");
+            // }
 
-            else if age (age < 18)
-            {
-              console.WriteLine("you are below 18");
-            }
-            else if(age < 75) 
-            {
-              console .WriteLine("you can drive");
-            }
-
-
-            else
-            {
-              console.WriteLine("you can not drive");
-            }
             console.readline();
              }
     }
