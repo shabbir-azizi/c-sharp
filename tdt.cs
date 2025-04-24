@@ -210,6 +210,25 @@ namespace Hello
               console.WriteLine("you can not drive");
             }
 
+
+            int age = 78;
+
+            switch(age)
+            {
+              case 18 ;
+                 console.WriteLine("please wain for an year");
+                 break;
+
+              case 20 ;
+                 console.WriteLine("you are 20");
+                 break;
+
+              default ;
+                 console.WriteLine("enjoy!")
+                 break;
+            }
+
+
             console.readline();
              }
     }
