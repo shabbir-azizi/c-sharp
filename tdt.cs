@@ -211,22 +211,22 @@ namespace Hello
             }
 
 
-            int age = 78;
+            // int age = 78;
 
-            switch(age)
-            {
-              case 18 ;
-                 console.WriteLine("please wain for an year");
-                 break;
+            // switch(age)
+            // {
+            //   case 18 ;
+            //      console.WriteLine("please wain for an year");
+            //      break;
 
-              case 20 ;
-                 console.WriteLine("you are 20");
-                 break;
+            //   case 20 ;
+            //      console.WriteLine("you are 20");
+            //      break;
 
-              default ;
-                 console.WriteLine("enjoy!")
-                 break;
-            }
+            //   default ;
+            //      console.WriteLine("enjoy!")
+            //      break;
+            // }
 
 
             // loops in c sharp
