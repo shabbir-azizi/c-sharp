@@ -229,6 +229,26 @@ namespace Hello
             }
 
 
+            // loops in c sharp
+            // console.WriteLine(1);
+            // console.WriteLine(2);
+            // console.WriteLine(3);
+            // console.WriteLine(4);
+            // console.WriteLine(5);
+            // console.WriteLine(6);
+            // console.WriteLine(7);
+
+            // better alternative = loops
+            // while loops
+            int i = 0;
+            while (i < 5)
+            {
+              console.WriteLine(i);
+              i++;
+            }
+
+
+
             console.readline();
              }
     }
