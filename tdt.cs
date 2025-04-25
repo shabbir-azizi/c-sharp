@@ -240,13 +240,12 @@ namespace Hello
 
             // better alternative = loops
             // while loops
-            int i = 0;
-            while (i < 5)
-            {
-              console.WriteLine(i);
-              i++;
-            }
-
+            // int i = 0;
+            // while (i < 5)
+            // {
+            //   console.WriteLine(i+1);
+            //   i++;
+            // }
 
 
             console.readline();
