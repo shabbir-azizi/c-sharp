@@ -179,17 +179,17 @@ namespace Hello
             // console.WriteLine(hello);
 
 
-            int age = 56;
-            console.WriteLine("enter your name");
-            string agestr  = console.readline();
-            int age = 16;
-            // if(age > 18)
-            if(age < 2)
-            {
-              console.WriteLine("you can drive");
-              console.WriteLine("you are just born");
+            // int age = 56;
+            // console.WriteLine("enter your name");
+            // string agestr  = console.readline();
+            // int age = 16;
+            // // if(age > 18)
+            // if(age < 2)
+            // {
+            //   console.WriteLine("you can drive");
+            //   console.WriteLine("you are just born");
             
-            // }
+            // // }
             // else if (age <10)
 
             // {
