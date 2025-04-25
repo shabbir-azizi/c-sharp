@@ -248,6 +248,14 @@ namespace Hello
             // }
 
 
+            //     int i = 0;
+            
+            // do {
+            //   console.WriteLine(i+1);
+            //   i++;
+            // }
+            // while (i < 5);
+
             console.readline();
              }
     }
