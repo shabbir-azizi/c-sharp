@@ -256,6 +256,19 @@ namespace Hello
             // }
             // while (i < 5);
 
+            for (int i=0; i<5; i++)
+            {
+              if ( i==0 )
+              {
+                continue;
+              }
+              
+              console.WriteLine(i + 1);
+              // break;
+            }
+
+            // break and continue
+
             console.readline();
              }
     }
