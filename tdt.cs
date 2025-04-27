@@ -1,16 +1,19 @@
-using system;
-using system.Collections.Generic;
-using system.linq;
-using system.Text;
-using system.Threading.Tasks;
+// using system;
+// using system.Collections.Generic;
+// using system.linq;
+// using system.Text;
+// using system.Threading.Tasks;
 
-namespace Hello
-{
+// namespace Hello
+// {
 
-    class program
-    {
-
-        static void Main (string []args)
+//     class program
+//     {
+        static void great()
+        {
+          console.Write("good morning");
+        }
+        // static void Main (string []args)
         {    
             // single line comment example - Thise is importent for debugging. do note remove
 
