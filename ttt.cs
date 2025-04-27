@@ -508,18 +508,6 @@ class DigitalClock
 using System;
 using System.Threading;
 
-class DigitalClock
-{
-    static void Main()
-    {
-        while (true)
-        {
-            Console.Clear(); // Clear the console to update the clock display
-            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss")); // Display current time
-            Thread.Sleep(1000); // Wait for 1 second before updating
-        }
-    }
-}
 
 
 
@@ -604,10 +592,6 @@ class DigitalClock
 
 
 
-
-//           bool is great = true;
-// string - string inp = "shabbir";
-string inp = console .readline  ();
 
 using System;
 using System.Threading;
