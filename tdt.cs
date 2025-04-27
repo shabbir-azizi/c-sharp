@@ -251,6 +251,21 @@ namespace Hello
             // }
 
 
+
+// namepace hello
+// {
+//     o references
+//     class Program
+//     {
+//         o references
+//         static void main ( straing[]args)
+//         {
+//             console.WriteLine("Hellow world");
+//             console.readline();
+//         }
+
+    }
+}
             //     int i = 0;
             
             // do {
@@ -274,6 +289,9 @@ namespace Hello
             // break - leave this loop forever
             // continue:leave this particular interation of the loop
 
+            greet();
+            greet();
+              
             console.readline();
              }
     }
