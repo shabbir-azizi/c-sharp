@@ -1,17 +1,17 @@
-// using system;
-// using system.Collections.Generic;
-// using system.linq;
-// using system.Text;
-// using system.Threading.Tasks;
+using system;
+using system.Collections.Generic;
+using system.linq;
+using system.Text;
+using system.Threading.Tasks;
 
-// namespace Hello
-// {
+namespace Hello
+{
 
-//     class program
-//     {
+    class program
+    {
         static void great()
         {
-          console.Write("good morning");
+          console.WriteLine("good morning");
         }
         // static void Main (string []args)
         {    
