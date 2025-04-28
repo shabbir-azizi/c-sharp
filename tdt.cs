@@ -5,21 +5,21 @@ using system.Text;
 using system.Threading.Tasks;
 
 namespace Hello
-{
+// {
 
-    class program
-    {
-        static void great(string name)
-        {
-          console.WriteLine("good morning" + name);
-        }
-        static int average(int a, int b, int c)
-        {
-          float sum = a + b + c;
-          return sun /3;
-        }
-        // static void Main (string []args)
-        {    
+//     class program
+//     {
+//         static void great(string name)
+//         {
+//           console.WriteLine("good morning" + name);
+//         }
+//         static int average(int a, int b, int c)
+//         {
+//           float sum = a + b + c;
+//           return sun /3;
+//         }
+//         // static void Main (string []args)
+//         {    
             // single line comment example - Thise is importent for debugging. do note remove
 
             // multi line comment example 
