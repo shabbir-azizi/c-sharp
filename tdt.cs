@@ -13,6 +13,11 @@ namespace Hello
         {
           console.WriteLine("good morning" + name);
         }
+        static int average(int a, int b, int c)
+        {
+          float sum = a + b + c;
+          return sun /3;
+        }
         // static void Main (string []args)
         {    
             // single line comment example - Thise is importent for debugging. do note remove
@@ -289,9 +294,14 @@ namespace Hello
             // break - leave this loop forever;
             // continue:leave this particular interation of the loop;
 
-            greet("shabbir ");
-            greet("hussain");
+//             greet("shabbir ");
+//             greet("hussain");
               
+//             console.WriteLine(average(2,6,8));
+//             float temp = average(9,3,0);
+//             console.WriteLine(temp);
+//             console.WriteLine(average(3,3,3));
+//             console.WriteLine(average(2,2,));
             console.readline();
              }
     }
