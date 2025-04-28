@@ -9,9 +9,9 @@ namespace Hello
 
     class program
     {
-        static void great()
+        static void great(string name)
         {
-          console.WriteLine("good morning");
+          console.WriteLine("good morning" + name);
         }
         // static void Main (string []args)
         {    
@@ -258,18 +258,18 @@ namespace Hello
 //     class Program
 //     {
 //         o references
-//         static void main ( straing[]args)
+//         static void main ( straing[]args);
 //         {
-//             console.WriteLine("Hellow world");
-//             console.readline();
+//             console.WriteLine("Hellow world");;
+//             console.readline();'
 //         }
 
-    }
-}
+    // }
+// }
             //     int i = 0;
             
             // do {
-            //   console.WriteLine(i+1);
+            //   console.WriteLine(i+1);;
             //   i++;
             // }
             // while (i < 5);
@@ -281,16 +281,16 @@ namespace Hello
             //     continue;
             //   }
               
-            //   console.WriteLine(i + 1);
+            //   console.WriteLine(i + 1);'
             //   // break;
             // }
 
-                      // break and continue
-            // break - leave this loop forever
-            // continue:leave this particular interation of the loop
+                      // break and continue'
+            // break - leave this loop forever;
+            // continue:leave this particular interation of the loop;
 
-            greet();
-            greet();
+            greet("shabbir ");
+            greet("hussain");
               
             console.readline();
              }
