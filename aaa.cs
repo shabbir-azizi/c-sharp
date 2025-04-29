@@ -1,12 +1,12 @@
-namespace hello
+// namespace hello
 
 
-using System;
+// using System;
 
-namespace OOPExample
-{
-    // Abstract class (Abstraction)
-    abstract class Animal
+// namespace OOPExample
+// {
+//     // Abstract class (Abstraction)
+//     abstract class Animal
     {
         // Encapsulation: private field with public property
         private string name;
