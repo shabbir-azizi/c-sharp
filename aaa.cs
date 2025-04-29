@@ -18,4 +18,36 @@ namespace OOPExample
         }
 
         // Abstract method (must be overridden)
-       
+
+
+        public abstract void MakeSound();
+
+        // Concrete method
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"Animal Name: {Name}");
+        }
+    }
+
+    // Derived class (Inheritance)
+    class Dog : Animal
+    {
+        // Method overriding (Polymorphism)
+        public override void MakeSound()
+        {
+            Console.WriteLine("Woof!");
+        }
+    }
+
+    // Another derived class
+    class Cat : Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("Meow!");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
