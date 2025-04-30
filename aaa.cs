@@ -48,17 +48,17 @@
     //     }
     // }
 
-    class Program
-    {
-        static void Main(string[] args)
+    // class Program
+    // {
+        // static void Main(string[] args)
 
-        // Creating objects (Object)
-            Animal dog = new Dog();
-            dog.Name = "Buddy";
-            dog.DisplayInfo();
-            dog.MakeSound();
+        // // Creating objects (Object)
+        //     Animal dog = new Dog();
+        //     dog.Name = "Buddy";
+        //     dog.DisplayInfo();
+            // dog.MakeSound();
 
-            Animal cat = new Cat();
-            cat.Name = "Whiskers";
+            // Animal cat = new Cat();
+            // cat.Name = "Whiskers";
             // cat.DisplayInfo();
             // cat.MakeSound();
