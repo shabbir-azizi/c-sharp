@@ -30,23 +30,23 @@
     // }
 
     // Derived class (Inheritance)
-    class Dog : Animal
+    // class Dog : Animal
     {
         // Method overriding (Polymorphism)
-        public override void MakeSound()
-        {
-            Console.WriteLine("Woof!");
-        }
-    }
+        // public override void MakeSound()
+        // {
+            // Console.WriteLine("Woof!");
+        // }
+    // }
 
     // Another derived class
-    class Cat : Animal
-    {
-        public override void MakeSound()
-        {
-            Console.WriteLine("Meow!");
-        }
-    }
+    // class Cat : Animal
+    // {
+    //     public override void MakeSound()
+    //     {
+    //         Console.WriteLine("Meow!");
+    //     }
+    // }
 
     class Program
     {
@@ -60,5 +60,5 @@
 
             Animal cat = new Cat();
             cat.Name = "Whiskers";
-            cat.DisplayInfo();
-            cat.MakeSound();
+            // cat.DisplayInfo();
+            // cat.MakeSound();
