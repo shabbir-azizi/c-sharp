@@ -62,3 +62,17 @@
             // cat.Name = "Whiskers";
             // cat.DisplayInfo();
             // cat.MakeSound();
+
+            namespace hello    
+            {
+            class player 
+            {
+                public string name = "harry";
+                public int health = 49;
+                public void sethealth (int h)
+                {
+                    health = h;
+                }
+            }
+
+            }
