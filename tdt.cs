@@ -5,6 +5,9 @@ using system.Text;
 using system.Threading.Tasks;
 
 namespace Hello
+{
+  {
+    {
 // {
 
 //     class program
@@ -302,6 +305,10 @@ namespace Hello
             // console.WriteLine(temp);
             // console.WriteLine(average(3,3,3));
             // console.WriteLine(average(2,2,2));
+            player tomy = new player ();
+            console.WriteLine(tommy.health);
+            tomy.sethealth(57);
+            console.WriteLine(tommy.health);
             console.readline();
              }
     }
