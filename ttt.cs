@@ -468,20 +468,20 @@ int main() {
 
 
 
-namepace hello
-{
-    o references
-    class Program
-    {
-        o references
-        static void main ( straing[]args)
-        {
-            console.WriteLine("Hellow world");
-            console.readline();
-        }
+// namepace hello
+// {
+//     o references
+//     class Program
+//     {
+//         o references
+//         static void main ( straing[]args)
+//         {
+//             console.WriteLine("Hellow world");
+//             console.readline();
+//         }
 
-    }
-}
+//     }
+// }
 
 
 
