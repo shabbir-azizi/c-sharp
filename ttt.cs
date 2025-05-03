@@ -405,13 +405,13 @@ void displayStudents() {
         return;
     }
 
-    printf("\nStudent Records:\n");
-    printf("ID\tName\t\tMarks\n");
-    printf("---------------------------------\n");
+    // printf("\nStudent Records:\n");
+    // printf("ID\tName\t\tMarks\n");
+    // printf("---------------------------------\n");
 
-    for (int i = 0; i < studentCount; i++) {
-        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
-    }
+    // for (int i = 0; i < studentCount; i++) {
+    //     printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+    // }
 
 
 // void searchStudent() {
