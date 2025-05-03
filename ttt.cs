@@ -414,20 +414,20 @@ void displayStudents() {
     }
 
 
-void searchStudent() {
-    int id;
-    printf("Enter Student ID to search: ");
-    scanf("%d", &id);
+// void searchStudent() {
+//     int id;
+//     printf("Enter Student ID to search: ");
+//     scanf("%d", &id);
 
-    for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
-}
+//     for (int i = 0; i < studentCount; i++) {
+//         if (students[i].id == id) {
+//             printf("\nStudent Found!\n");
+//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+//             return;
+//         }
+//     }
+//     printf("Student not found!\n");
+// }
 
 
 
