@@ -389,21 +389,21 @@ void deleteStudent() {
 
 
 /
-public readonly record struct Person(string Name, int Age);
+// public readonly record struct Person(string Name, int Age);
 
 
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
 
 
 
-void displayStudents() {
-    if (studentCount == 0) {
-        printf("No students to display.\n");
-        return;
-    }
+// void displayStudents() {
+//     if (studentCount == 0) {
+//         printf("No students to display.\n");
+//         return;
+//     }
 
     // printf("\nStudent Records:\n");
     // printf("ID\tName\t\tMarks\n");
