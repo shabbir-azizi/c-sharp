@@ -351,13 +351,13 @@ void searchStudent() {
             return;
         }
     }
-    printf("Student not found!\n");
-}
+//     printf("Student not found!\n");
+// }
 
-// Function to delete a student record
-void deleteStudent() {
-    int id, found = 0;
-    printf("Enter Student ID to delete: ");
+// // Function to delete a student record
+// void deleteStudent() {
+//     int id, found = 0;
+//     printf("Enter Student ID to delete: ");
     // scanf("%d", &id);
 
 //     for (int i = 0; i < studentCount; i++) {
