@@ -364,17 +364,17 @@ void deleteStudent() {
         if (students[i].id == id) {
             found = 1;
             for (int j = i; j < studentCount - 1; j++) {
-                students[j] = students[j + 1];
-            }
-            studentCount--;
-            printf("Student record deleted successfully!\n");
-            return;
-        }
-    }
-    if (!found) {
-        printf("Student not found!\n");
-    }
-}
+//                 students[j] = students[j + 1];
+//             }
+//             studentCount--;
+//             printf("Student record deleted successfully!\n");
+//             return;
+//         }
+//     }
+//     if (!found) {
+//         printf("Student not found!\n");
+//     }
+// }
 
 
 
