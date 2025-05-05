@@ -338,11 +338,11 @@ namepace hello
 
 
 
-Function to search for a student by ID
-void searchStudent() {
-    int id;
-    printf("Enter Student ID to search: ");
-    scanf("%d", &id);
+// Function to search for a student by ID
+// void searchStudent() {
+//     int id;
+//     printf("Enter Student ID to search: ");
+//     scanf("%d", &id);
 
     // for (int i = 0; i < studentCount; i++) {
     //     if (students[i].id == id) {
