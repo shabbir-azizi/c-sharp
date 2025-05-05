@@ -289,20 +289,20 @@ namepace hello
 }
 
 
-namepace hello
-{
-    o references
-    class Program
-    {
+// namepace hello
+// {
+//     o references
+//     class Program
+//     {
         o references
-        static void main ( straing[]args)
-        {
-            console.WriteLine("Hellow world");
-            console.readline();
-        }
+//         static void main ( straing[]args)
+//         {
+//             console.WriteLine("Hellow world");
+//             console.readline();
+//         }
 
-    }
-}
+//     }
+// }
 
 // using System;
 // using System.Threading;
