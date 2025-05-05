@@ -310,15 +310,15 @@ using System.Threading;
 class DigitalClock
 {
     static void Main()
-    {
-        while (true)
-        {
-            Console.Clear(); // Clear the console to update the clock display
-            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss")); // Display current time
-            Thread.Sleep(1000); // Wait for 1 second before updating
-        }
-    }
-}
+//     {
+//         while (true)
+//         {
+//             Console.Clear(); // Clear the console to update the clock display
+//             Console.WriteLine(DateTime.Now.ToString("HH:mm:ss")); // Display current time
+//             Thread.Sleep(1000); // Wait for 1 second before updating
+//         }
+//     }
+// }
 
 
 namepace hello
