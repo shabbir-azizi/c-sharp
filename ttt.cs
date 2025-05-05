@@ -304,12 +304,12 @@ namepace hello
     }
 }
 
-using System;
-using System.Threading;
+// using System;
+// using System.Threading;
 
-class DigitalClock
-{
-    static void Main()
+// class DigitalClock
+// {
+//     static void Main()
 //     {
 //         while (true)
 //         {
