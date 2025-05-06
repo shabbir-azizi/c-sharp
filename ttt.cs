@@ -261,19 +261,19 @@ int main() {
             case 5:
                 printf("Exiting...\n");
                 exit(0);
-            default:
-                printf("Invalid choice! Please try again.\n");
-        }
-    }
+    //         default:
+    //             printf("Invalid choice! Please try again.\n");
+    //     }
+    // }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
-namepace hello
-{
-    o references
-    class Program
+// namepace hello
+// {
+//     o references
+//     class Program
     {
         // o references
 //         static void main ( straing[]args)
