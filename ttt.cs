@@ -227,13 +227,13 @@ int main() {
 typedef struct {
     int id;
     char name[50];
-    float marks;
-} Student;
+//     float marks;
+// } Student;
 
-Student students[MAX_STUDENTS];
-int studentCount = 0
-int main() {
-    int choice;
+// Student students[MAX_STUDENTS];
+// int studentCount = 0
+// int main() {
+//     int choice;
 
     while (1) {
         printf("\nStudent Management System\n");
