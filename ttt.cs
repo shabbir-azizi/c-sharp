@@ -203,20 +203,17 @@ void searchStudent() {
 }
 
 
-typedef struct {
-    int id;
-    char name[50];
-    float marks;
-} Student;
-
-Student students[MAX_STUDENTS];
-int studentCount = 0;
-
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
+// typedef struct {
+//     int id;
+//     char name[50];
+//     float marks;
+// } Student;
+// Student students[MAX_STUDENTS];
+// int studentCount = 0;
+// int main() {
+//     printf("Hello, World!\n");
+//     return 0;
+// }
 
 
 // #include <stdio.h>
