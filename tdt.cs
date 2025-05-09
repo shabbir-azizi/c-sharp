@@ -344,3 +344,14 @@ namespace Hello
         }
     }
     printf("Student not found!\n");
+
+       for (int i = 0; i < studentCount; i++) {
+        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+    }
+
+
+void searchStudent() {
+    int id;
+    printf("Enter Student ID to search: ");
+    scanf("%d", &id);
+
