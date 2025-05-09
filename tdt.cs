@@ -355,3 +355,20 @@ void searchStudent() {
     printf("Enter Student ID to search: ");
     scanf("%d", &id);
 
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_STUDENTS 100
+
+void displayStudents() {
+    if (studentCount == 0) {
+        printf("No students to display.\n");
+        return;
+    }
