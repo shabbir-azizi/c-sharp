@@ -405,3 +405,19 @@ void displayStudents() {
     studentCount++;
     printf("Student added successfully!\n");
 }
+
+global using System;
+
+namespace MyApp; // File-scoped namespace (C# 10 feature)
+
+public class Program
+{
+    public static void Main()
+    {
+        var person = new Person("Alice", 25);
+        Console.WriteLine(person);
+
+        var updatedPerson = person with { Age = 26 }; // Record struct with expression-based mutation
+        Console.WriteLine(updatedPerson);
+    }
+}
