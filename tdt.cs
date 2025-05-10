@@ -393,3 +393,15 @@ void displayStudents() {
     printf("\nStudent Records:\n");
     printf("ID\tName\t\tMarks\n");
     printf("---------------------------------\n");
+
+    
+    printf("Enter Student ID: ");
+    scanf("%d", &students[studentCount].id);
+    printf("Enter Student Name: ");
+    scanf(" %[^\n]", students[studentCount].name);
+    printf("Enter Student Marks: ");
+    scanf("%f", &students[studentCount].marks);
+
+    studentCount++;
+    printf("Student added successfully!\n");
+}
