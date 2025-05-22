@@ -11,21 +11,7 @@ class Program
 
 
 // Global using directives (C# 10 feature)
-global using System;
 
-namespace MyApp; // File-scoped namespace (C# 10 feature)
-
-public class Program
-{
-    public static void Main()
-    {
-        var person = new Person("Alice", 25);
-        Console.WriteLine(person);
-
-        var updatedPerson = person with { Age = 26 }; // Record struct with expression-based mutation
-        Console.WriteLine(updatedPerson);
-    }
-}
 public readonly record struct Person(string Name, int Age);
 
 
@@ -45,15 +31,6 @@ int main() {
 
 #define MAX_STUDENTS 100
 
-void displayStudents() {
-    if (studentCount == 0) {
-        printf("No students to display.\n");
-        return;
-    }
-
-    printf("\nStudent Records:\n");
-    printf("ID\tName\t\tMarks\n");
-    printf("---------------------------------\n");
 
     for (int i = 0; i < studentCount; i++) {
         printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
@@ -95,16 +72,6 @@ void addStudent() {
         return;
     }
 
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
-
-    studentCount++;
-    printf("Student added successfully!\n");
-}
 
 void deleteStudent() {
     int id, found = 0;
@@ -182,25 +149,8 @@ void displayStudents() {
     printf("ID\tName\t\tMarks\n");
     printf("---------------------------------\n");
 
-    for (int i = 0; i < studentCount; i++) {
-        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
-    }
+ 
 
-
-void searchStudent() {
-    int id;
-    printf("Enter Student ID to search: ");
-    scanf("%d", &id);
-
-    for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
-}
 
 
 // typedef struct {
