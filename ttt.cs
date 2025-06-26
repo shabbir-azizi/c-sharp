@@ -487,27 +487,13 @@ using System.Threading;
         UpdateClock(null, null);
     }
 
-    private void UpdateClock(object sender, EventArgs e)
-    {
-        timeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
-    }
-
-    [STAThread]
-    public static void Main()
-    {
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
-        Application.Run(new DigitalClock());
-    }
-}
 
 
 
 
 
 
-using System;
-using System.Threading;
+
 
 // class DigitalClock
 // {
@@ -568,3 +554,18 @@ for (int i = 0; i < studentCount; i++) {
         }
     }
     printf("Student not found!\n");
+    private void UpdateClock(object sender, EventArgs e)
+    {
+        timeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
+    }
+
+    [STAThread]
+    public static void Main()
+{
+    Application.EnableVisualStyles();
+    Application.SetCompatibleTextRenderingDefault(false);
+    Application.Run(new DigitalClock());
+}
+}
+using System;
+using System.Threading;
