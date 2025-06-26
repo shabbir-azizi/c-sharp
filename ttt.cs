@@ -569,3 +569,11 @@ for (int i = 0; i < studentCount; i++) {
 }
 using System;
 using System.Threading;
+
+
+    printf("Enter Student ID: ");
+    scanf("%d", &students[studentCount].id);
+    printf("Enter Student Name: ");
+    scanf(" %[^\n]", students[studentCount].name);
+    printf("Enter Student Marks: ");
+    scanf("%f", &students[studentCount].marks);
