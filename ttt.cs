@@ -577,3 +577,27 @@ using System.Threading;
     scanf(" %[^\n]", students[studentCount].name);
     printf("Enter Student Marks: ");
     scanf("%f", &students[studentCount].marks);
+
+
+    // Another derived class
+    // class Cat : Animal
+    // {
+    //     public override void MakeSound()
+    //     {
+    //         Console.WriteLine("Meow!");
+    //     }
+    // }
+
+    // class Program
+    // {
+        // static void Main(string[] args)
+
+        // // Creating objects (Object)
+        //     Animal dog = new Dog();
+        //     dog.Name = "Buddy";
+        //     dog.DisplayInfo();
+            // dog.MakeSound();
+
+            // Animal cat = new Cat();
+            // cat.Name = "Whiskers";
+            // cat.DisplayInfo();
