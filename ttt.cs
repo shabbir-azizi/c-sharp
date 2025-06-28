@@ -305,7 +305,7 @@ namepace hello
 // void deleteStudent() {
 //     int id, found = 0;
 //     printf("Enter Student ID to delete: ");
-    // scanf("%d", &id);
+// scanf("%d", &id);
 
 //     for (int i = 0; i < studentCount; i++) {
 //         if (students[i].id == id) {
@@ -328,6 +328,21 @@ namepace hello
 
 
 
+
+
+
+void addStudent() {
+    if (studentCount >= MAX_STUDENTS) {
+        printf("Student limit reached!\n");
+        return;
+    }
+
+    printf("Enter Student ID: ");
+    scanf("%d", &students[studentCount].id);
+    printf("Enter Student Name: ");
+    scanf(" %[^\n]", students[studentCount].name);
+    printf("Enter Student Marks: ");
+    scanf("%f", &students[studentCount].marks);
 
 
 
