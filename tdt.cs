@@ -421,3 +421,16 @@ public class Program
         Console.WriteLine(updatedPerson);
     }
 }
+
+int main() {
+    int choice;
+
+    while (1) {
+        printf("\nStudent Management System\n");
+        printf("1. Add Student\n");
+        printf("2. Display Students\n");
+        printf("3. Search Student\n");
+        printf("4. Delete Student\n");
+        printf("5. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
