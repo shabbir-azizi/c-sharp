@@ -5,8 +5,8 @@ using system.Text;
 using system.Threading.Tasks;
 
 namespace Hello
-{
-  {
+// {
+//   {
     {
 // {
 
@@ -304,146 +304,121 @@ namespace Hello
             // float temp = average(9,3,0);
             // console.WriteLine(temp);
             // console.WriteLine(average(3,3,3));
-            // console.WriteLine(average(2,2,2));
-            player tomy = new player ();
-            console.WriteLine(tommy.health);
-            tomy.sethealth(57);
-            console.WriteLine(tommy.health);
-            console.readline();
-             }
-    }
-}
-
-
-
-
-   for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
-}
-
-   printf("\nStudent Records:\n");
-    printf("ID\tName\t\tMarks\n");
-    printf("---------------------------------\n");
-
-    for (int i = 0; i < studentCount; i++) {
-        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+            // // console.WriteLine(average(2,2,2));
+            // player tomy = new player ();
+            // console.WriteLine(tommy.health);
+            // tomy.sethealth(57);
+            // console.WriteLine(tommy.health);
+            // console.readline();
+            //  }
     }
 
 
-       for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
-
-       for (int i = 0; i < studentCount; i++) {
-        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
-    }
 
 
-void searchStudent() {
-    int id;
-    printf("Enter Student ID to search: ");
-    scanf("%d", &id);
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
+//    for (int i = 0; i < studentCount; i++) {
+//         if (students[i].id == id) {
+//             printf("\nStudent Found!\n");
+//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+//             return;
+//         }
+//     }
+//     printf("Student not found!\n");
+// }
 
+//    printf("\nStudent Records:\n");
+    // printf("ID\tName\t\tMarks\n");
+    // printf("---------------------------------\n");
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-#define MAX_STUDENTS 100
-
-void displayStudents() {
-    if (studentCount == 0) {
-        printf("No students to display.\n");
-        return;
-    }
+    // for (int i = 0; i < studentCount; i++) {
+    //     printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+    // }
 
 
-   for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
+    //    for (int i = 0; i < studentCount; i++) {
+    //     if (students[i].id == id) {
+    //         printf("\nStudent Found!\n");
+    //         printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+    //         return;
+    //     }
+    // }
+    // printf("Student not found!\n");
+
+    //    for (int i = 0; i < studentCount; i++) {
+    //     printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+    // }
+
+
+// void searchStudent() {
+//     int id;
+//     printf("Enter Student ID to search: ");
+//     scanf("%d", &id);
+
+// int main() {
+//     printf("Hello, World!\n");
+//     return 0;
+// }
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <string.h>
+
+// #define MAX_STUDENTS 100
+
+// void displayStudents() {
+//     if (studentCount == 0) {
+//         printf("No students to display.\n");
+//         return;
+//     }
+
+
+//    for (int i = 0; i < studentCount; i++) {
+//         if (students[i].id == id) {
+//             printf("\nStudent Found!\n");
+//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+//             return;
+//         }
+//     }
+//     printf("Student not found!\n");
 
     
-void displayStudents() {
-    if (studentCount == 0) {
-        printf("No students to display.\n");
-        return;
-    }
+// void displayStudents() {
+//     if (studentCount == 0) {
+//         printf("No students to display.\n");
+//         return;
+//     }
 
-    printf("\nStudent Records:\n");
-    printf("ID\tName\t\tMarks\n");
-    printf("---------------------------------\n");
+//     printf("\nStudent Records:\n");
+//     printf("ID\tName\t\tMarks\n");
+//     printf("---------------------------------\n");
 
     
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
+//     printf("Enter Student ID: ");
+//     scanf("%d", &students[studentCount].id);
+//     printf("Enter Student Name: ");
+//     scanf(" %[^\n]", students[studentCount].name);
+//     printf("Enter Student Marks: ");
+//     scanf("%f", &students[studentCount].marks);
 
-    studentCount++;
-    printf("Student added successfully!\n");
-}
+//     studentCount++;
+//     printf("Student added successfully!\n");
+// }
 
-global using System;
+// global using System;
 
-namespace MyApp; // File-scoped namespace (C# 10 feature)
+// namespace MyApp; // File-scoped namespace (C# 10 feature)
 
-public class Program
-{
-    public static void Main()
-    {
-        var person = new Person("Alice", 25);
-        Console.WriteLine(person);
+// public class Program
+// {
+//     public static void Main()
+//     {
+//         var person = new Person("Alice", 25);
+//         Console.WriteLine(person);
 
-        var updatedPerson = person with { Age = 26 }; // Record struct with expression-based mutation
-        Console.WriteLine(updatedPerson);
-    }
-}
+//         var updatedPerson = person with { Age = 26 }; // Record struct with expression-based mutation
+//         Console.WriteLine(updatedPerson);
+//     }
+// }
 
-int main() {
-    int choice;
-
-    while (1) {
-        printf("\nStudent Management System\n");
-        printf("1. Add Student\n");
-        printf("2. Display Students\n");
-        printf("3. Search Student\n");
-        printf("4. Delete Student\n");
-        printf("5. Exit\n");
-        printf("Enter your choice: ");
-        scanf("%d", &choice);
-
-void addStudent() {
-    if (studentCount >= MAX_STUDENTS) {
-        printf("Student limit reached!\n");
-        return;
-    }
-
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
