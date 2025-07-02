@@ -7,7 +7,7 @@
 // {
 //     // Abstract class (Abstraction)
 //     abstract class Animal
-    {
+    // {
         // Encapsulation: private field with public property
         // private string name;
 
@@ -31,7 +31,7 @@
 
     // Derived class (Inheritance)
     // class Dog : Animal
-    {
+    // {
         // Method overriding (Polymorphism)
         // public override void MakeSound()
         // {
@@ -39,48 +39,26 @@
         // }
     // }
 
-    // Another derived class
-    // class Cat : Animal
-    // {
-    //     public override void MakeSound()
-    //     {
-    //         Console.WriteLine("Meow!");
-    //     }
-    // }
-
-    // class Program
-    // {
-        // static void Main(string[] args)
-
-        // // Creating objects (Object)
-        //     Animal dog = new Dog();
-        //     dog.Name = "Buddy";
-        //     dog.DisplayInfo();
-            // dog.MakeSound();
-
-            // Animal cat = new Cat();
-            // cat.Name = "Whiskers";
-            // cat.DisplayInfo();
             // cat.MakeSound();
 
-            namespace hello    
-            {
-            class player 
-            {
-                public string name = "harry";
-                public int health = 49;
+            // namespace hello    
+            // {
+            // class player 
+            // {
+            //     public string name = "harry";
+            //     public int health = 49;
 
-                public int gethealth ()
-                {
-                    return health ;
-                }
+            //     public int gethealth ()
+            //     {
+            //         return health ;
+            //     }
 
-                console.WriteLine(tommy.gethealth());
-                console.WriteLine(tommy.health);
-                public void sethealth (int h)
-                {
-                    health = h;
-                }
-            }
+            //     console.WriteLine(tommy.gethealth());
+            //     console.WriteLine(tommy.health);
+            //     public void sethealth (int h)
+            //     {
+            //         health = h;
+            //     }
+            // }
 
-            }
+            // }
