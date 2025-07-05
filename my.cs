@@ -113,19 +113,19 @@
 // }
 
 
-void addStudent() {
-    if (studentCount >= MAX_STUDENTS) {
-        printf("Student limit reached!\n");
-        return;
-    }
+// void addStudent() {
+//     if (studentCount >= MAX_STUDENTS) {
+//         printf("Student limit reached!\n");
+//         return;
+//     }
 
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
-void addStudent() {
+//     printf("Enter Student ID: ");
+//     scanf("%d", &students[studentCount].id);
+//     printf("Enter Student Name: ");
+//     scanf(" %[^\n]", students[studentCount].name);
+//     printf("Enter Student Marks: ");
+//     scanf("%f", &students[studentCount].marks);
+// void addStudent() {
     if (studentCount >= MAX_STUDENTS) {
         printf("Student limit reached!\n");
         return;
