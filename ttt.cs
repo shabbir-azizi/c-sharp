@@ -17,137 +17,48 @@ public readonly record struct Person(string Name, int Age);
 
 
 
-#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-#define MAX_STUDENTS 100
+  
+
+// Function to add a student
+
+// typedef struct {
+//     int id;
+//     char name[50];
+//     float marks;
+// } Student;
+
+// Student students[MAX_STUDENTS];
+// int studentCount = 0;
+
+// Function to add a student
 
 
-    for (int i = 0; i < studentCount; i++) {
-        printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
-    }
+// Function to delete a student record
+// void deleteStudent() 
+
 
     
 
-// Function to add a student
-void addStudent() {
-    if (studentCount >= MAX_STUDENTS) {
-        printf("Student limit reached!\n");
-        return;
-    }
 
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
+// public readonly record struct Person(string Name, int Age);
 
-    studentCount++;
-    printf("Student added successfully!\n");
-}
-/ Structure to store student details
-typedef struct {
-    int id;
-    char name[50];
-    float marks;
-} Student;
-
-Student students[MAX_STUDENTS];
-int studentCount = 0;
-
-// Function to add a student
-void addStudent() {
-    if (studentCount >= MAX_STUDENTS) {
-        printf("Student limit reached!\n");
-        return;
-    }
-
-
-void deleteStudent() {
-    int id, found = 0;
-    printf("Enter Student ID to delete: ");
-    scanf("%d", &id);
-
-    for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            found = 1;
-            for (int j = i; j < studentCount - 1; j++) {
-                students[j] = students[j + 1];
-            }
-            studentCount--;
-            printf("Student record deleted successfully!\n");
-            return;
-        }
-    }
-    if (!found) {
-        printf("Student not found!\n");
-    }
-}
-
- Function to search for a student by ID
-void searchStudent() {
-    int id;
-    printf("Enter Student ID to search: ");
-    scanf("%d", &id);
-
-    for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
-}
-
-// Function to delete a student record
-void deleteStudent() {
-    int id, found = 0;
-    printf("Enter Student ID to delete: ");
-    scanf("%d", &id);
-
-    for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            found = 1;
-            for (int j = i; j < studentCount - 1; j++) {
-                students[j] = students[j + 1];
-            }
-            studentCount--;
-            printf("Student record deleted successfully!\n");
-            return;
-        }
-    }
-    if (!found) {
-        printf("Student not found!\n");
-    }
-}
-
-public readonly record struct Person(string Name, int Age);
-
-#include <stdio.h>
+// #include <stdio.h>
 
 
 
 
-void displayStudents() {
-    if (studentCount == 0) {
-        printf("No students to display.\n");
-        return;
-    }
+// void displayStudents() {
+//     if (studentCount == 0) {
+//         printf("No students to display.\n");
+//         return;
+//     }
 
-    printf("\nStudent Records:\n");
-    printf("ID\tName\t\tMarks\n");
-    printf("---------------------------------\n");
+//     printf("\nStudent Records:\n");
+//     printf("ID\tName\t\tMarks\n");
+//     printf("---------------------------------\n");
 
  
 
@@ -221,7 +132,7 @@ void displayStudents() {
 // {
 //     o references
 //     class Program
-    {
+    // {
         // o references
 //         static void main ( straing[]args)
 //         {
@@ -232,8 +143,8 @@ void displayStudents() {
 //     }
 // }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 // namepace hello
@@ -241,7 +152,7 @@ void displayStudents() {
 //     o references
 //     class Program
 //     {
-        o references
+        // o references
 //         static void main ( straing[]args)
 //         {
 //             console.WriteLine("Hellow world");
@@ -268,10 +179,10 @@ void displayStudents() {
 // }
 
 
-namepace hello
-{
-    o references
-    class Program
+// namepace hello
+// {
+//     o references
+//     class Program
     // {
     //     o references
     //     static void main ( straing[]args)
@@ -297,7 +208,7 @@ namepace hello
     //         printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
     //         return;
     //     }
-    }
+    // }
 //     printf("Student not found!\n");
 // }
 
@@ -331,26 +242,8 @@ namepace hello
 
 
 
-void addStudent() {
-    if (studentCount >= MAX_STUDENTS) {
-        printf("Student limit reached!\n");
-        return;
-    }
 
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
-
-
-
-
-
-
-
-/
+// /
 // public readonly record struct Person(string Name, int Age);
 
 
@@ -467,40 +360,40 @@ void addStudent() {
 
 
 
-using System;
-using System.Threading;
+// using System;
+// using System.Threading;
 
 
 
 
 
-{
-    private Label timeLabel;
-    private Timer timer;
+// {
+//     private Label timeLabel;
+//     private Timer timer;
 
-    public DigitalClock()
-    {
-        this.Text = "Digital Clock";
-        this.Size = new Size(300, 150);
-        this.FormBorderStyle = FormBorderStyle.FixedDialog;
-        this.MaximizeBox = false;
+//     public DigitalClock()
+//     {
+//         this.Text = "Digital Clock";
+//         this.Size = new Size(300, 150);
+//         this.FormBorderStyle = FormBorderStyle.FixedDialog;
+//         this.MaximizeBox = false;
         
-        timeLabel = new Label();
-        timeLabel.Font = new Font("Arial", 24, FontStyle.Bold);
-        timeLabel.Dock = DockStyle.Fill;
-        timeLabel.TextAlign = ContentAlignment.MiddleCenter;
+//         timeLabel = new Label();
+//         timeLabel.Font = new Font("Arial", 24, FontStyle.Bold);
+//         timeLabel.Dock = DockStyle.Fill;
+//         timeLabel.TextAlign = ContentAlignment.MiddleCenter;
         
-        this.Controls.Add(timeLabel);
+//         this.Controls.Add(timeLabel);
         
 
 
-        timer = new Timer();
-        timer.Interval = 1000; // Update every second
-        timer.Tick += new EventHandler(UpdateClock);
-        timer.Start();
+//         timer = new Timer();
+//         timer.Interval = 1000; // Update every second
+//         timer.Tick += new EventHandler(UpdateClock);
+//         timer.Start();
         
-        UpdateClock(null, null);
-    }
+//         UpdateClock(null, null);
+    // }
 
 
 
@@ -536,7 +429,7 @@ using System.Threading;
 //             Thread.Sleep(1000); // Wait for 1 second before updating
 //         }
 //     }
-}
+// }
 
 
 
@@ -561,37 +454,37 @@ using System.Threading;
 
  
 
-for (int i = 0; i < studentCount; i++) {
-        if (students[i].id == id) {
-            printf("\nStudent Found!\n");
-            printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-            return;
-        }
-    }
-    printf("Student not found!\n");
-    private void UpdateClock(object sender, EventArgs e)
-    {
-        timeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
-    }
+// for (int i = 0; i < studentCount; i++) {
+//         if (students[i].id == id) {
+//             printf("\nStudent Found!\n");
+//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+//             return;
+//         }
+//     }
+//     printf("Student not found!\n");
+//     private void UpdateClock(object sender, EventArgs e)
+//     {
+//         timeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
+//     }
 
-    [STAThread]
-    public static void Main()
-{
-    Application.EnableVisualStyles();
-    Application.SetCompatibleTextRenderingDefault(false);
-    Application.Run(new DigitalClock());
-}
-}
-using System;
-using System.Threading;
+//     [STAThread]
+//     public static void Main()
+// {
+//     Application.EnableVisualStyles();
+//     Application.SetCompatibleTextRenderingDefault(false);
+//     Application.Run(new DigitalClock());
+// }
+// }
+// using System;
+// using System.Threading;
 
 
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
+//     printf("Enter Student ID: ");
+//     scanf("%d", &students[studentCount].id);
+//     printf("Enter Student Name: ");
+//     scanf(" %[^\n]", students[studentCount].name);
+//     printf("Enter Student Marks: ");
+//     scanf("%f", &students[studentCount].marks);
 
 
     // Another derived class
