@@ -531,3 +531,26 @@ public readonly record struct Person(string Name, int Age);
             // Animal cat = new Cat();
             // cat.Name = "Whiskers";
             // cat.DisplayInfo();
+
+
+
+        public abstract void MakeSound();
+
+        // Concrete method
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"Animal Name: {Name}");
+        }
+    }
+
+    Derived class (Inheritance)
+    class Dog : Animal
+    {
+        Method overriding (Polymorphism)
+        public override void MakeSound()
+        {
+            Console.WriteLine("Woof!");
+        }
+    }
+
+      
