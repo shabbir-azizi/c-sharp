@@ -565,4 +565,24 @@ public readonly record struct Person(string Name, int Age);
             Thread.Sleep(1000); // Wait for 1 second before updating
         }
     }
-}
+// }
+//     //     public abstract void MakeSound();
+
+//     //     // Concrete method
+//     //     public void DisplayInfo()
+//     //     {
+//     //         Console.WriteLine($"Animal Name: {Name}");
+//     //     }
+//     // }
+
+//     // Derived class (Inheritance)
+//     // class Dog : Animal
+//     // {
+//         // Method overriding (Polymorphism)
+//         // public override void MakeSound()
+//         // {
+//             // Console.WriteLine("Woof!");
+//         // }
+//     // }
+
+      
