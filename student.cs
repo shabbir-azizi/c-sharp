@@ -59,3 +59,14 @@ printf("Student not found!\n");
 //     printf("Student added successfully!\n");
 // }
 
+
+// void displayStudents() {
+//     if (studentCount == 0) {
+//         printf("No students to display.\n");
+//         return;
+//     }
+
+//     printf("\nStudent Records:\n");
+//     printf("ID\tName\t\tMarks\n");
+//     printf("---------------------------------\n");
+
