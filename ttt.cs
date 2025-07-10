@@ -609,3 +609,26 @@ void displayStudents() {
     printf("ID\tName\t\tMarks\n");
     printf("---------------------------------\n");
 
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <string.h>
+
+// #define MAX_STUDENTS 100
+
+// void displayStudents() {
+//     if (studentCount == 0) {
+//         printf("No students to display.\n");
+//         return;
+//     }
+
+
+//    for (int i = 0; i < studentCount; i++) {
+//         if (students[i].id == id) {
+//             printf("\nStudent Found!\n");
+//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+//             return;
+//         }
+//     }
+//     printf("Student not found!\n");
