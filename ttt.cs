@@ -648,3 +648,20 @@ void displayStudents() {
 //     printf("Hello, World!\n");
 //     return 0;
 // }
+
+    // for (int i = 0; i < studentCount; i++) {
+    //     printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
+    // }
+
+
+    //    for (int i = 0; i < studentCount; i++) {
+    //     if (students[i].id == id) {
+    //         printf("\nStudent Found!\n");
+    //         printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
+    //         return;
+    //     }
+    // }
+    // printf("Student not found!\n");
+
+
+    
