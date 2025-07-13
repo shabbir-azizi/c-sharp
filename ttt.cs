@@ -705,3 +705,15 @@ void displayStudents() {
     int v = 4 * 3.14 * r * r * r / 3;
     printf("the volume is : %f",v);
     }
+
+    // if (studentCount >= MAX_STUDENTS) {
+    //     printf("Student limit reached!\n");
+    //     return;
+    }
+
+    printf("Enter Student ID: ");
+    scanf("%d", &students[studentCount].id);
+    printf("Enter Student Name: ");
+    scanf(" %[^\n]", students[studentCount].name);
+    printf("Enter Student Marks: ");
+    scanf("%f", &students[studentCount].marks);
