@@ -750,3 +750,23 @@ void addStudent() {
         printf("File error!\n");
         return;
     }
+
+    printf("Enter Roll No: ");
+    scanf("%d", &s.rollNo);
+    printf("Enter Name: ");
+    scanf(" %[^\n]", s.name);
+    printf("Enter Marks: ");
+    scanf("%f", &s.marks);
+
+    fwrite(&s, sizeof(s), 1, fp);
+    fclose(fp);
+    printf("Student added successfully!\n\n");
+}
+
+void displayStudents() {
+    struct Student s;
+    FILE *fp = fopen("students.dat", "rb");
+    if (!fp) {
+        printf("No student records found.\n");
+        return;
+    }
