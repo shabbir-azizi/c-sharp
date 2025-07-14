@@ -770,3 +770,20 @@ void displayStudents() {
         printf("No student records found.\n");
         return;
     }
+
+printf("\nAll Students:\n");
+    while (fread(&s, sizeof(s), 1, fp)) {
+        printf("Roll No: %d, Name: %s, Marks: %.2f\n", s.rollNo, s.name, s.marks);
+    }
+    fclose(fp);
+}
+
+void searchStudent() {
+    struct Student s;
+    int rollNo, found = 0;
+    FILE *fp = fopen("students.dat", "rb");
+
+    if (!fp) {
+        printf("File not found!\n");
+        return;
+    }
