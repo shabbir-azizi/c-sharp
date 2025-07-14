@@ -731,3 +731,22 @@ void addStudent() {
     printf("Enter Student Marks: ");
     scanf("%f", &students[studentCount].marks);
 void addStudent() {
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct Student {
+    int rollNo;
+    char name[50];
+    float marks;
+};
+
+void addStudent() {
+    struct Student s;
+    FILE *fp = fopen("students.dat", "ab");
+    if (!fp) {
+        printf("File error!\n");
+        return;
+    }
