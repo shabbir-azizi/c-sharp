@@ -896,3 +896,24 @@ int main() {
 //         printf("Student limit reached!\n");
 //         return;
 //     }
+
+
+/         }
+        // static void Main (string []args)
+        {    
+            single line comment example - Thise is importent for debugging. do note remove
+
+            multi line comment example 
+            thise is a multi-line comment 
+            spanning multiple lines
+
+
+            int shabbir = 19;//integer variable 
+            
+            string inp = console .readline  ();
+            console.WriteLine(inp);
+            Console.WriteLine( "hellow world ");
+            Console.Write( "hellow shabbir ");
+            Console.WriteLine( "i like programing ");
+            Console.WriteLine( "i like programing and code" + harry);
+   
