@@ -1,31 +1,5 @@
-// typedef struct {
-//     int id;
-//     char name[50];
-//     float marks;
-// } Student;
-// Student students[MAX_STUDENTS];
-// int studentCount = 0;
-// int main() {
-//     printf("Hello, World!\n");
-//     return 0;
-// }
 
 
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
-
-// #define MAX_STUDENTS 100
-// typedef struct {
-//     int id;
-//     char name[50];
-//     float marks;
-// } Student;
-
-// Student students[MAX_STUDENTS];
-// int studentCount = 0
-// int main() {
-//     int choice;
 
     // while (1) {
     //     printf("\nStudent Management System\n");
@@ -81,27 +55,7 @@
 }
 
 
-// void addStudent() {
-//     if (studentCount >= MAX_STUDENTS) {
-//         printf("Student limit reached!\n");
-//         return;
-//     }
 
-//     printf("Enter Student ID: ");
-//     scanf("%d", &students[studentCount].id);
-//     printf("Enter Student Name: ");
-//     scanf(" %[^\n]", students[studentCount].name);
-//     printf("Enter Student Marks: ");
-//     scanf("%f", &students[studentCount].marks);
-// void addStudent() {
-    if (studentCount >= MAX_STUDENTS) {
-        printf("Student limit reached!\n");
-        return;
-    }
 
-    printf("Enter Student ID: ");
-    scanf("%d", &students[studentCount].id);
-    printf("Enter Student Name: ");
-    scanf(" %[^\n]", students[studentCount].name);
-    printf("Enter Student Marks: ");
-    scanf("%f", &students[studentCount].marks);
+
+
