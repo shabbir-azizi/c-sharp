@@ -1062,3 +1062,18 @@ int main() {
             console.readline();
              }
     }
+                for (int i=0; i<5; i++)
+            {
+              if ( i==0 )
+              {
+                continue;
+              }
+              
+              console.WriteLine(i + 1);'
+              // break;
+            }
+
+                      break and continue'
+            break - leave this loop forever;
+            continue:leave this particular interation of the loop;
+
