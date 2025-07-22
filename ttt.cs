@@ -1046,3 +1046,19 @@ Student students[MAX_STUDENTS];
 int studentCount = 0
 int main() {
     int choice;
+
+            greet("shabbir ");
+            greet("hussain");
+              
+            console.WriteLine(average(2,6,8));
+            float temp = average(9,3,0);
+            console.WriteLine(temp);
+            console.WriteLine(average(3,3,3));
+            // console.WriteLine(average(2,2,2));
+            player tomy = new player ();
+            console.WriteLine(tommy.health);
+            tomy.sethealth(57);
+            console.WriteLine(tommy.health);
+            console.readline();
+             }
+    }
