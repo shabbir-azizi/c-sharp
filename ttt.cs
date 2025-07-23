@@ -1077,3 +1077,18 @@ int main() {
             break - leave this loop forever;
             continue:leave this particular interation of the loop;
 
+
+namepace hello
+{
+    o references
+    class Program
+    {
+        o references
+        static void main ( straing[]args);
+        {
+            console.WriteLine("Hellow world");;
+            console.readline();'
+        }
+
+    }
+}
