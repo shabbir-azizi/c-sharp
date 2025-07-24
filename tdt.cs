@@ -19,40 +19,10 @@ namespace Hello
 //         static int average(int a, int b, int c)
 //         {
 //           float sum = a + b + c;
-//           return sun /3;
-//         }
-//         // static void Main (string []args)
-//         {    
-            // single line comment example - Thise is importent for debugging. do note remove
-
-            // multi line comment example 
-            // thise is a multi-line comment 
-            // spanning multiple lines
+//           return sun /3;      
 
 
-            // int shabbir = 19;//integer variable 
-            
-            // string inp = console .readline  ();
-            // console.WriteLine(inp);
-            // Console.WriteLine( "hellow world ");
-            // Console.Write( "hellow shabbir ");
-            // Console.WriteLine( "i like programing ");
-            // Console.WriteLine( "i like programing and code" + harry);
-         
 
-
-// class DigitalClock
-// {
-//     static void Main()
-//     {
-//         while (true)
-//         {
-//             Console.Clear(); // Clear the console to update the clock display
-//             Console.WriteLine(DateTime.Now.ToString("HH:mm:ss")); // Display current time
-//             Thread.Sleep(1000); // Wait for 1 second before updating
-//         }
-//     }
-// }
 
 
             /* data type in c#:
@@ -260,20 +230,7 @@ namespace Hello
 
 
 
-// namepace hello
-// {
-//     o references
-//     class Program
-//     {
-//         o references
-//         static void main ( straing[]args);
-//         {
-//             console.WriteLine("Hellow world");;
-//             console.readline();'
-//         }
 
-    // }
-// }
             //     int i = 0;
             
             // do {
@@ -297,128 +254,11 @@ namespace Hello
             // break - leave this loop forever;
             // continue:leave this particular interation of the loop;
 
-            // greet("shabbir ");
-            // greet("hussain");
-              
-            // console.WriteLine(average(2,6,8));
-            // float temp = average(9,3,0);
-            // console.WriteLine(temp);
-            // console.WriteLine(average(3,3,3));
-            // // console.WriteLine(average(2,2,2));
-            // player tomy = new player ();
-            // console.WriteLine(tommy.health);
-            // tomy.sethealth(57);
-            // console.WriteLine(tommy.health);
-            // console.readline();
-            //  }
-    }
 
 
 
 
 
-//    for (int i = 0; i < studentCount; i++) {
-//         if (students[i].id == id) {
-//             printf("\nStudent Found!\n");
-//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-//             return;
-//         }
-//     }
-//     printf("Student not found!\n");
-// }
-
-//    printf("\nStudent Records:\n");
-    // printf("ID\tName\t\tMarks\n");
-    // printf("---------------------------------\n");
-
-    // for (int i = 0; i < studentCount; i++) {
-    //     printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
-    // }
 
 
-    //    for (int i = 0; i < studentCount; i++) {
-    //     if (students[i].id == id) {
-    //         printf("\nStudent Found!\n");
-    //         printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-    //         return;
-    //     }
-    // }
-    // printf("Student not found!\n");
-
-    //    for (int i = 0; i < studentCount; i++) {
-    //     printf("%d\t%s\t%.2f\n", students[i].id, students[i].name, students[i].marks);
-    // }
-
-
-// void searchStudent() {
-//     int id;
-//     printf("Enter Student ID to search: ");
-//     scanf("%d", &id);
-
-// int main() {
-//     printf("Hello, World!\n");
-//     return 0;
-// }
-
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
-
-// #define MAX_STUDENTS 100
-
-// void displayStudents() {
-//     if (studentCount == 0) {
-//         printf("No students to display.\n");
-//         return;
-//     }
-
-
-//    for (int i = 0; i < studentCount; i++) {
-//         if (students[i].id == id) {
-//             printf("\nStudent Found!\n");
-//             printf("ID: %d\nName: %s\nMarks: %.2f\n", students[i].id, students[i].name, students[i].marks);
-//             return;
-//         }
-//     }
-//     printf("Student not found!\n");
-
-    
-// void displayStudents() {
-//     if (studentCount == 0) {
-//         printf("No students to display.\n");
-//         return;
-//     }
-
-//     printf("\nStudent Records:\n");
-//     printf("ID\tName\t\tMarks\n");
-//     printf("---------------------------------\n");
-
-    
-//     printf("Enter Student ID: ");
-//     scanf("%d", &students[studentCount].id);
-//     printf("Enter Student Name: ");
-//     scanf(" %[^\n]", students[studentCount].name);
-//     printf("Enter Student Marks: ");
-//     scanf("%f", &students[studentCount].marks);
-
-//     studentCount++;
-//     printf("Student added successfully!\n");
-// }
-
-// global using System;
-
-// namespace MyApp; // File-scoped namespace (C# 10 feature)
-
-// public class Program
-// {
-//     public static void Main()
-//     {
-//         var person = new Person("Alice", 25);
-//         Console.WriteLine(person);
-
-//         var updatedPerson = person with { Age = 26 }; // Record struct with expression-based mutation
-//         Console.WriteLine(updatedPerson);
-//     }
-// }
 
